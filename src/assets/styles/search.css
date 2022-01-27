@@ -1,0 +1,114 @@
+/* GENERAL STYLES */
+
+.search-container {
+    width: 100%;
+    height: 49px;
+
+    margin-bottom: 26px;
+}
+
+.search__items {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.search__items > div {
+    margin: 0;
+}
+
+/* WHOLE SEARCH BLOCK STYLES */
+
+.search__items-search-block {
+    width: 1000px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    padding: 14px 14px;
+}
+
+.search__items-search-block > div{
+   margin: 0;
+}
+
+.search__items-data-filter-block {
+    width: 161px;
+}
+
+.search__items-search-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__items-search-input-container input {
+    width: 930px;
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid var(--light-text-clr);
+    outline: none;
+}
+
+
+.search__items-search-icon-container {
+    width: max-content;
+    height: max-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__items-search-icon-container > img {
+    height: 20px;
+    width: 18px;
+}
+
+.search__items-search-icon-container:hover {
+    cursor: pointer;
+}
+
+
+/* DATA FILTER BLOCK */
+
+.search__items-data-filter-block {
+    width: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    padding: 12px 22px;
+}
+
+.search__items-data-filter-block > div {
+    margin: 0;
+}
+
+.search__items-data-filter-text {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.016em;
+    color: var(--light-text-clr);
+}
+
+.search__items-data-filter-dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27px;
+}
+
+.search__items-data-filter-dropdown-container img {
+    height: 6px;
+    width: 12px;
+}
